@@ -24,7 +24,7 @@ FLAKE8_EXIT_CODE=$?
 if [ $PYTEST_EXIT_CODE -eq 0 ] && [ $MYPY_EXIT_CODE -eq 0 ] && [ $ISORT_EXIT_CODE -eq 0 ] && [ $BLACK_EXIT_CODE -eq 0 ] && [ $FLAKE8_EXIT_CODE -eq 0 ]; then
     echo "Success"
 else
-    echo "Tests/Checks failed"
+    echo "TESTS/CHECKS FAILED. DO NOT COMMIT."
     exit 1
 fi
 
