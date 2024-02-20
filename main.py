@@ -1,5 +1,5 @@
 def main() -> None:
-    result = add_two_numbers("a", "b")
+    result = add_two_numbers(1, 2)
     print(result)
 
 
