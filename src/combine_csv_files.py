@@ -1,6 +1,6 @@
+import csv
+import os
 
-import os 
-import csv 
 import click
 
 
