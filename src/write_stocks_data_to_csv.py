@@ -123,20 +123,12 @@ def write_stocks_data_to_csv(
         )
     else:
         _ticker_range = [1, len(tickers)]
+    fieldnames = list(symbol_to_word.values())
+    fieldnames.append("ticker")
     with open(file_path, "w", newline="") as file:
         writer = csv.DictWriter(
             file,
-            fieldnames=[
-                "volume",
-                "volume_weighted_average_price",
-                "open",
-                "close",
-                "high",
-                "low",
-                "timestamp",
-                "number_of_trades",
-                "ticker",
-            ],
+            fieldnames=fieldnames,
         )
         writer.writeheader()
         for i in tqdm(
