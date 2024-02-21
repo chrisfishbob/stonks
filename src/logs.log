@@ -8278,3 +8278,536 @@
 2024-02-19 20:00:17,307 - INFO - Next URL exists for ticker: ZTS. URL: https://api.polygon.io/v2/aggs/ticker/ZTS/range/2/hour/1694019600000/2024-02-19?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
 2024-02-19 20:00:17,308 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ZTS/range/2/hour/1694019600000/2024-02-19?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
 2024-02-19 20:00:22,256 - INFO - Processed ticker: ZTS
+2024-02-21 12:13:48,689 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:13:53,599 - INFO - Next URL exists for ticker: MMM. URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/2/hour/1660820400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:13:53,599 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/2/hour/1660820400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:13:58,326 - INFO - Next URL exists for ticker: MMM. URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/2/hour/1676314800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:13:58,327 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/2/hour/1676314800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:14:04,018 - INFO - Next URL exists for ticker: MMM. URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/2/hour/1691434800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:14:04,018 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/2/hour/1691434800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:14:08,822 - INFO - Next URL exists for ticker: MMM. URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/2/hour/1706641200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:14:08,823 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/2/hour/1706641200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:14:13,286 - INFO - Processed ticker: MMM
+2024-02-21 12:14:13,287 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AOS/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:14:18,000 - INFO - Next URL exists for ticker: AOS. URL: https://api.polygon.io/v2/aggs/ticker/AOS/range/2/hour/1662649200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:14:18,000 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AOS/range/2/hour/1662649200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:14:23,447 - INFO - Next URL exists for ticker: AOS. URL: https://api.polygon.io/v2/aggs/ticker/AOS/range/2/hour/1679497200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:14:23,447 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AOS/range/2/hour/1679497200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:14:28,213 - INFO - Next URL exists for ticker: AOS. URL: https://api.polygon.io/v2/aggs/ticker/AOS/range/2/hour/1697122800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:14:28,213 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AOS/range/2/hour/1697122800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:14:33,724 - INFO - Processed ticker: AOS
+2024-02-21 12:14:33,724 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABT/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:14:39,142 - INFO - Next URL exists for ticker: ABT. URL: https://api.polygon.io/v2/aggs/ticker/ABT/range/2/hour/1660856400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:14:39,142 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABT/range/2/hour/1660856400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:14:44,002 - INFO - Next URL exists for ticker: ABT. URL: https://api.polygon.io/v2/aggs/ticker/ABT/range/2/hour/1676566800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:14:44,003 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABT/range/2/hour/1676566800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:14:48,650 - INFO - Next URL exists for ticker: ABT. URL: https://api.polygon.io/v2/aggs/ticker/ABT/range/2/hour/1692284400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:14:48,651 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABT/range/2/hour/1692284400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:14:53,369 - INFO - Next URL exists for ticker: ABT. URL: https://api.polygon.io/v2/aggs/ticker/ABT/range/2/hour/1708016400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:14:53,370 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABT/range/2/hour/1708016400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:14:57,863 - INFO - Processed ticker: ABT
+2024-02-21 12:14:57,863 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABBV/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:15:02,805 - INFO - Next URL exists for ticker: ABBV. URL: https://api.polygon.io/v2/aggs/ticker/ABBV/range/2/hour/1660590000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:15:02,805 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABBV/range/2/hour/1660590000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:15:07,529 - INFO - Next URL exists for ticker: ABBV. URL: https://api.polygon.io/v2/aggs/ticker/ABBV/range/2/hour/1676034000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:15:07,529 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABBV/range/2/hour/1676034000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:15:12,795 - INFO - Next URL exists for ticker: ABBV. URL: https://api.polygon.io/v2/aggs/ticker/ABBV/range/2/hour/1691586000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:15:12,795 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABBV/range/2/hour/1691586000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:15:17,497 - INFO - Next URL exists for ticker: ABBV. URL: https://api.polygon.io/v2/aggs/ticker/ABBV/range/2/hour/1707231600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:15:17,497 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABBV/range/2/hour/1707231600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:15:22,174 - INFO - Processed ticker: ABBV
+2024-02-21 12:15:22,175 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ACN/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:15:26,958 - INFO - Next URL exists for ticker: ACN. URL: https://api.polygon.io/v2/aggs/ticker/ACN/range/2/hour/1661202000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:15:26,959 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ACN/range/2/hour/1661202000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:15:31,698 - INFO - Next URL exists for ticker: ACN. URL: https://api.polygon.io/v2/aggs/ticker/ACN/range/2/hour/1677258000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:15:31,699 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ACN/range/2/hour/1677258000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:15:36,437 - INFO - Next URL exists for ticker: ACN. URL: https://api.polygon.io/v2/aggs/ticker/ACN/range/2/hour/1693249200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:15:36,437 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ACN/range/2/hour/1693249200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:15:41,294 - INFO - Processed ticker: ACN
+2024-02-21 12:15:41,294 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADBE/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:15:45,982 - INFO - Next URL exists for ticker: ADBE. URL: https://api.polygon.io/v2/aggs/ticker/ADBE/range/2/hour/1660330800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:15:45,982 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADBE/range/2/hour/1660330800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:15:50,767 - INFO - Next URL exists for ticker: ADBE. URL: https://api.polygon.io/v2/aggs/ticker/ADBE/range/2/hour/1675364400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:15:50,767 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADBE/range/2/hour/1675364400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:15:55,541 - INFO - Next URL exists for ticker: ADBE. URL: https://api.polygon.io/v2/aggs/ticker/ADBE/range/2/hour/1690311600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:15:55,541 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADBE/range/2/hour/1690311600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:16:01,652 - INFO - Next URL exists for ticker: ADBE. URL: https://api.polygon.io/v2/aggs/ticker/ADBE/range/2/hour/1705424400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:16:01,653 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADBE/range/2/hour/1705424400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:16:06,113 - INFO - Processed ticker: ADBE
+2024-02-21 12:16:06,114 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:16:10,926 - INFO - Next URL exists for ticker: AMD. URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1653073200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:16:10,927 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1653073200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:16:15,720 - INFO - Next URL exists for ticker: AMD. URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1661439600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:16:15,720 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1661439600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:16:20,443 - INFO - Next URL exists for ticker: AMD. URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1669842000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:16:20,443 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1669842000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:16:25,081 - INFO - Next URL exists for ticker: AMD. URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1678971600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:16:25,082 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1678971600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:16:29,893 - INFO - Next URL exists for ticker: AMD. URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1687431600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:16:29,893 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1687431600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:16:35,130 - INFO - Next URL exists for ticker: AMD. URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1695834000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:16:35,130 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1695834000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:16:39,771 - INFO - Next URL exists for ticker: AMD. URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1704740400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:16:39,771 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMD/range/2/hour/1704740400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:16:44,283 - INFO - Processed ticker: AMD
+2024-02-21 12:16:44,284 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AES/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:16:48,961 - INFO - Next URL exists for ticker: AES. URL: https://api.polygon.io/v2/aggs/ticker/AES/range/2/hour/1661187600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:16:48,961 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AES/range/2/hour/1661187600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:16:54,678 - INFO - Next URL exists for ticker: AES. URL: https://api.polygon.io/v2/aggs/ticker/AES/range/2/hour/1677164400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:16:54,678 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AES/range/2/hour/1677164400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:16:59,231 - INFO - Next URL exists for ticker: AES. URL: https://api.polygon.io/v2/aggs/ticker/AES/range/2/hour/1692903600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:16:59,231 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AES/range/2/hour/1692903600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:17:03,991 - INFO - Processed ticker: AES
+2024-02-21 12:17:03,991 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AFL/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:17:08,667 - INFO - Next URL exists for ticker: AFL. URL: https://api.polygon.io/v2/aggs/ticker/AFL/range/2/hour/1661194800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:17:08,667 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AFL/range/2/hour/1661194800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:17:13,364 - INFO - Next URL exists for ticker: AFL. URL: https://api.polygon.io/v2/aggs/ticker/AFL/range/2/hour/1677171600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:17:13,364 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AFL/range/2/hour/1677171600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:17:18,104 - INFO - Next URL exists for ticker: AFL. URL: https://api.polygon.io/v2/aggs/ticker/AFL/range/2/hour/1692982800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:17:18,105 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AFL/range/2/hour/1692982800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:17:22,822 - INFO - Processed ticker: AFL
+2024-02-21 12:17:22,822 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/A/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:17:27,517 - INFO - Next URL exists for ticker: A. URL: https://api.polygon.io/v2/aggs/ticker/A/range/2/hour/1661446800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:17:27,517 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/A/range/2/hour/1661446800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:17:32,169 - INFO - Next URL exists for ticker: A. URL: https://api.polygon.io/v2/aggs/ticker/A/range/2/hour/1678388400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:17:32,169 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/A/range/2/hour/1678388400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:17:37,217 - INFO - Next URL exists for ticker: A. URL: https://api.polygon.io/v2/aggs/ticker/A/range/2/hour/1694725200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:17:37,218 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/A/range/2/hour/1694725200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:17:41,927 - INFO - Processed ticker: A
+2024-02-21 12:17:41,927 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APD/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:17:47,106 - INFO - Next URL exists for ticker: APD. URL: https://api.polygon.io/v2/aggs/ticker/APD/range/2/hour/1661958000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:17:47,106 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APD/range/2/hour/1661958000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:17:51,639 - INFO - Next URL exists for ticker: APD. URL: https://api.polygon.io/v2/aggs/ticker/APD/range/2/hour/1679425200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:17:51,639 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APD/range/2/hour/1679425200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:17:56,356 - INFO - Next URL exists for ticker: APD. URL: https://api.polygon.io/v2/aggs/ticker/APD/range/2/hour/1698418800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:17:56,356 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APD/range/2/hour/1698418800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:18:01,023 - INFO - Processed ticker: APD
+2024-02-21 12:18:01,023 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABNB/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:18:05,865 - INFO - Next URL exists for ticker: ABNB. URL: https://api.polygon.io/v2/aggs/ticker/ABNB/range/2/hour/1658768400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:18:05,865 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABNB/range/2/hour/1658768400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:18:10,584 - INFO - Next URL exists for ticker: ABNB. URL: https://api.polygon.io/v2/aggs/ticker/ABNB/range/2/hour/1672160400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:18:10,584 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABNB/range/2/hour/1672160400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:18:15,236 - INFO - Next URL exists for ticker: ABNB. URL: https://api.polygon.io/v2/aggs/ticker/ABNB/range/2/hour/1685732400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:18:15,236 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABNB/range/2/hour/1685732400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:18:19,891 - INFO - Next URL exists for ticker: ABNB. URL: https://api.polygon.io/v2/aggs/ticker/ABNB/range/2/hour/1699916400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:18:19,892 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABNB/range/2/hour/1699916400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:18:24,522 - INFO - Processed ticker: ABNB
+2024-02-21 12:18:24,522 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AKAM/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:18:29,133 - INFO - Next URL exists for ticker: AKAM. URL: https://api.polygon.io/v2/aggs/ticker/AKAM/range/2/hour/1661799600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:18:29,133 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AKAM/range/2/hour/1661799600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:18:33,838 - INFO - Next URL exists for ticker: AKAM. URL: https://api.polygon.io/v2/aggs/ticker/AKAM/range/2/hour/1678381200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:18:33,838 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AKAM/range/2/hour/1678381200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:18:38,536 - INFO - Next URL exists for ticker: AKAM. URL: https://api.polygon.io/v2/aggs/ticker/AKAM/range/2/hour/1695049200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:18:38,536 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AKAM/range/2/hour/1695049200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:18:43,113 - INFO - Processed ticker: AKAM
+2024-02-21 12:18:43,114 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALB/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:18:47,748 - INFO - Next URL exists for ticker: ALB. URL: https://api.polygon.io/v2/aggs/ticker/ALB/range/2/hour/1661454000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:18:47,748 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALB/range/2/hour/1661454000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:18:52,463 - INFO - Next URL exists for ticker: ALB. URL: https://api.polygon.io/v2/aggs/ticker/ALB/range/2/hour/1677610800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:18:52,463 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALB/range/2/hour/1677610800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:18:57,128 - INFO - Next URL exists for ticker: ALB. URL: https://api.polygon.io/v2/aggs/ticker/ALB/range/2/hour/1692975600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:18:57,128 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALB/range/2/hour/1692975600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:19:02,077 - INFO - Next URL exists for ticker: ALB. URL: https://api.polygon.io/v2/aggs/ticker/ALB/range/2/hour/1707937200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:19:02,078 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALB/range/2/hour/1707937200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:19:06,482 - INFO - Processed ticker: ALB
+2024-02-21 12:19:06,482 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ARE/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:19:11,085 - INFO - Next URL exists for ticker: ARE. URL: https://api.polygon.io/v2/aggs/ticker/ARE/range/2/hour/1662750000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:19:11,085 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ARE/range/2/hour/1662750000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:19:16,462 - INFO - Next URL exists for ticker: ARE. URL: https://api.polygon.io/v2/aggs/ticker/ARE/range/2/hour/1680793200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:19:16,462 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ARE/range/2/hour/1680793200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:19:21,587 - INFO - Next URL exists for ticker: ARE. URL: https://api.polygon.io/v2/aggs/ticker/ARE/range/2/hour/1698346800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:19:21,587 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ARE/range/2/hour/1698346800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:19:26,435 - INFO - Processed ticker: ARE
+2024-02-21 12:19:26,435 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALGN/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:19:31,246 - INFO - Next URL exists for ticker: ALGN. URL: https://api.polygon.io/v2/aggs/ticker/ALGN/range/2/hour/1663160400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:19:31,246 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALGN/range/2/hour/1663160400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:19:35,944 - INFO - Next URL exists for ticker: ALGN. URL: https://api.polygon.io/v2/aggs/ticker/ALGN/range/2/hour/1680274800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:19:35,944 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALGN/range/2/hour/1680274800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:19:40,597 - INFO - Next URL exists for ticker: ALGN. URL: https://api.polygon.io/v2/aggs/ticker/ALGN/range/2/hour/1699282800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:19:40,597 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALGN/range/2/hour/1699282800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:19:45,406 - INFO - Processed ticker: ALGN
+2024-02-21 12:19:45,407 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALLE/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:19:50,106 - INFO - Next URL exists for ticker: ALLE. URL: https://api.polygon.io/v2/aggs/ticker/ALLE/range/2/hour/1663794000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:19:50,107 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALLE/range/2/hour/1663794000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:19:54,818 - INFO - Next URL exists for ticker: ALLE. URL: https://api.polygon.io/v2/aggs/ticker/ALLE/range/2/hour/1683054000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:19:54,819 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALLE/range/2/hour/1683054000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:19:59,536 - INFO - Next URL exists for ticker: ALLE. URL: https://api.polygon.io/v2/aggs/ticker/ALLE/range/2/hour/1702393200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:19:59,537 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALLE/range/2/hour/1702393200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:20:04,205 - INFO - Processed ticker: ALLE
+2024-02-21 12:20:04,205 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/LNT/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:20:09,040 - INFO - Next URL exists for ticker: LNT. URL: https://api.polygon.io/v2/aggs/ticker/LNT/range/2/hour/1661540400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:20:09,040 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/LNT/range/2/hour/1661540400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:20:13,528 - INFO - Next URL exists for ticker: LNT. URL: https://api.polygon.io/v2/aggs/ticker/LNT/range/2/hour/1678143600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:20:13,529 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/LNT/range/2/hour/1678143600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:20:18,147 - INFO - Next URL exists for ticker: LNT. URL: https://api.polygon.io/v2/aggs/ticker/LNT/range/2/hour/1694530800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:20:18,147 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/LNT/range/2/hour/1694530800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:20:22,911 - INFO - Processed ticker: LNT
+2024-02-21 12:20:22,911 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALL/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:20:28,003 - INFO - Next URL exists for ticker: ALL. URL: https://api.polygon.io/v2/aggs/ticker/ALL/range/2/hour/1661353200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:20:28,003 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALL/range/2/hour/1661353200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:20:33,044 - INFO - Next URL exists for ticker: ALL. URL: https://api.polygon.io/v2/aggs/ticker/ALL/range/2/hour/1677769200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:20:33,044 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALL/range/2/hour/1677769200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:20:37,836 - INFO - Next URL exists for ticker: ALL. URL: https://api.polygon.io/v2/aggs/ticker/ALL/range/2/hour/1694185200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:20:37,837 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ALL/range/2/hour/1694185200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:20:42,574 - INFO - Processed ticker: ALL
+2024-02-21 12:20:42,574 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:20:47,838 - INFO - Next URL exists for ticker: GOOGL. URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/2/hour/1659524400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:20:47,838 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/2/hour/1659524400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:20:52,508 - INFO - Next URL exists for ticker: GOOGL. URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/2/hour/1669050000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:20:52,509 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/2/hour/1669050000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:20:57,224 - INFO - Next URL exists for ticker: GOOGL. URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/2/hour/1678834800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:20:57,224 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/2/hour/1678834800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:21:02,440 - INFO - Next URL exists for ticker: GOOGL. URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/2/hour/1688562000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:21:02,441 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/2/hour/1688562000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:21:07,619 - INFO - Next URL exists for ticker: GOOGL. URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/2/hour/1698454800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:21:07,619 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/GOOGL/range/2/hour/1698454800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:21:12,256 - INFO - Processed ticker: GOOGL
+2024-02-21 12:22:21,721 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/GOOG/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:22:26,394 - INFO - Next URL exists for ticker: GOOG. URL: https://api.polygon.io/v2/aggs/ticker/GOOG/range/2/hour/1659718800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:22:26,394 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/GOOG/range/2/hour/1659718800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:22:31,056 - INFO - Next URL exists for ticker: GOOG. URL: https://api.polygon.io/v2/aggs/ticker/GOOG/range/2/hour/1670346000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:22:31,056 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/GOOG/range/2/hour/1670346000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:22:35,779 - INFO - Next URL exists for ticker: GOOG. URL: https://api.polygon.io/v2/aggs/ticker/GOOG/range/2/hour/1680692400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:22:35,780 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/GOOG/range/2/hour/1680692400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:22:40,514 - INFO - Next URL exists for ticker: GOOG. URL: https://api.polygon.io/v2/aggs/ticker/GOOG/range/2/hour/1690894800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:22:40,515 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/GOOG/range/2/hour/1690894800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:22:45,211 - INFO - Next URL exists for ticker: GOOG. URL: https://api.polygon.io/v2/aggs/ticker/GOOG/range/2/hour/1701709200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:22:45,211 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/GOOG/range/2/hour/1701709200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:22:49,966 - INFO - Processed ticker: GOOG
+2024-02-21 12:22:49,967 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MO/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:22:54,645 - INFO - Next URL exists for ticker: MO. URL: https://api.polygon.io/v2/aggs/ticker/MO/range/2/hour/1659704400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:22:54,646 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MO/range/2/hour/1659704400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:22:59,371 - INFO - Next URL exists for ticker: MO. URL: https://api.polygon.io/v2/aggs/ticker/MO/range/2/hour/1674579600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:22:59,371 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MO/range/2/hour/1674579600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:23:04,089 - INFO - Next URL exists for ticker: MO. URL: https://api.polygon.io/v2/aggs/ticker/MO/range/2/hour/1689274800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:23:04,090 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MO/range/2/hour/1689274800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:23:08,810 - INFO - Next URL exists for ticker: MO. URL: https://api.polygon.io/v2/aggs/ticker/MO/range/2/hour/1703610000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:23:08,811 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MO/range/2/hour/1703610000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:23:13,308 - INFO - Processed ticker: MO
+2024-02-21 12:23:13,309 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:23:17,985 - INFO - Next URL exists for ticker: AMZN. URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1657054800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:23:17,985 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1657054800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:23:22,613 - INFO - Next URL exists for ticker: AMZN. URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1665162000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:23:22,614 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1665162000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:23:27,230 - INFO - Next URL exists for ticker: AMZN. URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1673017200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:23:27,230 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1673017200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:23:31,869 - INFO - Next URL exists for ticker: AMZN. URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1681146000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:23:31,869 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1681146000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:23:36,600 - INFO - Next URL exists for ticker: AMZN. URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1689267600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:23:36,600 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1689267600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:23:41,312 - INFO - Next URL exists for ticker: AMZN. URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1697634000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:23:41,312 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1697634000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:23:46,158 - INFO - Next URL exists for ticker: AMZN. URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1706540400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:23:46,158 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMZN/range/2/hour/1706540400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:23:50,706 - INFO - Processed ticker: AMZN
+2024-02-21 12:23:50,706 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMCR/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:23:55,411 - INFO - Next URL exists for ticker: AMCR. URL: https://api.polygon.io/v2/aggs/ticker/AMCR/range/2/hour/1661194800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:23:55,412 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMCR/range/2/hour/1661194800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:24:00,183 - INFO - Next URL exists for ticker: AMCR. URL: https://api.polygon.io/v2/aggs/ticker/AMCR/range/2/hour/1677171600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:24:00,183 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMCR/range/2/hour/1677171600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:24:04,942 - INFO - Next URL exists for ticker: AMCR. URL: https://api.polygon.io/v2/aggs/ticker/AMCR/range/2/hour/1692975600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:24:04,942 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMCR/range/2/hour/1692975600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:24:09,563 - INFO - Processed ticker: AMCR
+2024-02-21 12:24:09,563 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AEE/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:24:14,274 - INFO - Next URL exists for ticker: AEE. URL: https://api.polygon.io/v2/aggs/ticker/AEE/range/2/hour/1661799600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:24:14,275 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AEE/range/2/hour/1661799600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:24:18,992 - INFO - Next URL exists for ticker: AEE. URL: https://api.polygon.io/v2/aggs/ticker/AEE/range/2/hour/1678316400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:24:18,992 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AEE/range/2/hour/1678316400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:24:23,708 - INFO - Next URL exists for ticker: AEE. URL: https://api.polygon.io/v2/aggs/ticker/AEE/range/2/hour/1695056400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:24:23,708 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AEE/range/2/hour/1695056400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:24:28,518 - INFO - Processed ticker: AEE
+2024-02-21 12:24:28,518 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAL/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:24:33,227 - INFO - Next URL exists for ticker: AAL. URL: https://api.polygon.io/v2/aggs/ticker/AAL/range/2/hour/1654772400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:24:33,227 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAL/range/2/hour/1654772400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:24:37,934 - INFO - Next URL exists for ticker: AAL. URL: https://api.polygon.io/v2/aggs/ticker/AAL/range/2/hour/1664888400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:24:37,934 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAL/range/2/hour/1664888400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:24:42,776 - INFO - Next URL exists for ticker: AAL. URL: https://api.polygon.io/v2/aggs/ticker/AAL/range/2/hour/1675789200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:24:42,776 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAL/range/2/hour/1675789200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:24:47,364 - INFO - Next URL exists for ticker: AAL. URL: https://api.polygon.io/v2/aggs/ticker/AAL/range/2/hour/1686942000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:24:47,364 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAL/range/2/hour/1686942000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:24:52,279 - INFO - Next URL exists for ticker: AAL. URL: https://api.polygon.io/v2/aggs/ticker/AAL/range/2/hour/1698411600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:24:52,279 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAL/range/2/hour/1698411600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:24:56,826 - INFO - Processed ticker: AAL
+2024-02-21 12:24:56,826 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AEP/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:25:01,536 - INFO - Next URL exists for ticker: AEP. URL: https://api.polygon.io/v2/aggs/ticker/AEP/range/2/hour/1661180400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:25:01,536 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AEP/range/2/hour/1661180400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:25:06,247 - INFO - Next URL exists for ticker: AEP. URL: https://api.polygon.io/v2/aggs/ticker/AEP/range/2/hour/1677092400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:25:06,247 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AEP/range/2/hour/1677092400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:25:10,964 - INFO - Next URL exists for ticker: AEP. URL: https://api.polygon.io/v2/aggs/ticker/AEP/range/2/hour/1692889200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:25:10,964 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AEP/range/2/hour/1692889200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:25:15,697 - INFO - Processed ticker: AEP
+2024-02-21 12:25:15,697 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AXP/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:25:20,330 - INFO - Next URL exists for ticker: AXP. URL: https://api.polygon.io/v2/aggs/ticker/AXP/range/2/hour/1660669200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:25:20,330 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AXP/range/2/hour/1660669200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:25:25,131 - INFO - Next URL exists for ticker: AXP. URL: https://api.polygon.io/v2/aggs/ticker/AXP/range/2/hour/1676055600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:25:25,131 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AXP/range/2/hour/1676055600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:25:30,384 - INFO - Next URL exists for ticker: AXP. URL: https://api.polygon.io/v2/aggs/ticker/AXP/range/2/hour/1691586000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:25:30,384 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AXP/range/2/hour/1691586000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:25:35,095 - INFO - Next URL exists for ticker: AXP. URL: https://api.polygon.io/v2/aggs/ticker/AXP/range/2/hour/1707145200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:25:35,095 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AXP/range/2/hour/1707145200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:25:39,558 - INFO - Processed ticker: AXP
+2024-02-21 12:25:39,559 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AIG/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:25:44,121 - INFO - Next URL exists for ticker: AIG. URL: https://api.polygon.io/v2/aggs/ticker/AIG/range/2/hour/1661180400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:25:44,121 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AIG/range/2/hour/1661180400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:25:48,719 - INFO - Next URL exists for ticker: AIG. URL: https://api.polygon.io/v2/aggs/ticker/AIG/range/2/hour/1677092400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:25:48,719 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AIG/range/2/hour/1677092400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:25:53,435 - INFO - Next URL exists for ticker: AIG. URL: https://api.polygon.io/v2/aggs/ticker/AIG/range/2/hour/1692824400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:25:53,436 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AIG/range/2/hour/1692824400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:25:58,115 - INFO - Processed ticker: AIG
+2024-02-21 12:25:58,116 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMT/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:26:02,871 - INFO - Next URL exists for ticker: AMT. URL: https://api.polygon.io/v2/aggs/ticker/AMT/range/2/hour/1661360400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:26:02,871 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMT/range/2/hour/1661360400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:26:07,592 - INFO - Next URL exists for ticker: AMT. URL: https://api.polygon.io/v2/aggs/ticker/AMT/range/2/hour/1677682800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:26:07,593 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMT/range/2/hour/1677682800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:26:13,294 - INFO - Next URL exists for ticker: AMT. URL: https://api.polygon.io/v2/aggs/ticker/AMT/range/2/hour/1693587600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:26:13,295 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMT/range/2/hour/1693587600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:26:18,114 - INFO - Processed ticker: AMT
+2024-02-21 12:26:18,115 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AWK/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:26:22,799 - INFO - Next URL exists for ticker: AWK. URL: https://api.polygon.io/v2/aggs/ticker/AWK/range/2/hour/1663081200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:26:22,799 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AWK/range/2/hour/1663081200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:26:27,576 - INFO - Next URL exists for ticker: AWK. URL: https://api.polygon.io/v2/aggs/ticker/AWK/range/2/hour/1680627600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:26:27,576 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AWK/range/2/hour/1680627600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:26:32,686 - INFO - Next URL exists for ticker: AWK. URL: https://api.polygon.io/v2/aggs/ticker/AWK/range/2/hour/1698267600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:26:32,686 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AWK/range/2/hour/1698267600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:26:37,492 - INFO - Processed ticker: AWK
+2024-02-21 12:26:37,493 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMP/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:26:42,207 - INFO - Next URL exists for ticker: AMP. URL: https://api.polygon.io/v2/aggs/ticker/AMP/range/2/hour/1664463600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:26:42,208 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMP/range/2/hour/1664463600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:26:46,913 - INFO - Next URL exists for ticker: AMP. URL: https://api.polygon.io/v2/aggs/ticker/AMP/range/2/hour/1684767600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:26:46,913 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMP/range/2/hour/1684767600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:26:51,635 - INFO - Next URL exists for ticker: AMP. URL: https://api.polygon.io/v2/aggs/ticker/AMP/range/2/hour/1707930000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:26:51,636 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMP/range/2/hour/1707930000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:26:56,128 - INFO - Processed ticker: AMP
+2024-02-21 12:26:56,129 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AME/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:27:01,005 - INFO - Next URL exists for ticker: AME. URL: https://api.polygon.io/v2/aggs/ticker/AME/range/2/hour/1662570000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:27:01,005 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AME/range/2/hour/1662570000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:27:05,549 - INFO - Next URL exists for ticker: AME. URL: https://api.polygon.io/v2/aggs/ticker/AME/range/2/hour/1680030000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:27:05,550 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AME/range/2/hour/1680030000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:27:10,587 - INFO - Next URL exists for ticker: AME. URL: https://api.polygon.io/v2/aggs/ticker/AME/range/2/hour/1698080400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:27:10,587 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AME/range/2/hour/1698080400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:27:15,273 - INFO - Processed ticker: AME
+2024-02-21 12:27:15,273 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMGN/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:27:20,190 - INFO - Next URL exists for ticker: AMGN. URL: https://api.polygon.io/v2/aggs/ticker/AMGN/range/2/hour/1660921200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:27:20,190 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMGN/range/2/hour/1660921200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:27:25,867 - INFO - Next URL exists for ticker: AMGN. URL: https://api.polygon.io/v2/aggs/ticker/AMGN/range/2/hour/1676660400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:27:25,867 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMGN/range/2/hour/1676660400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:27:31,009 - INFO - Next URL exists for ticker: AMGN. URL: https://api.polygon.io/v2/aggs/ticker/AMGN/range/2/hour/1692651600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:27:31,009 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMGN/range/2/hour/1692651600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:27:35,692 - INFO - Processed ticker: AMGN
+2024-02-21 12:27:35,692 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APH/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:27:40,848 - INFO - Next URL exists for ticker: APH. URL: https://api.polygon.io/v2/aggs/ticker/APH/range/2/hour/1661353200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:27:40,848 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APH/range/2/hour/1661353200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:27:45,641 - INFO - Next URL exists for ticker: APH. URL: https://api.polygon.io/v2/aggs/ticker/APH/range/2/hour/1677596400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:27:45,641 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APH/range/2/hour/1677596400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:27:50,368 - INFO - Next URL exists for ticker: APH. URL: https://api.polygon.io/v2/aggs/ticker/APH/range/2/hour/1693494000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:27:50,368 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APH/range/2/hour/1693494000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:27:55,111 - INFO - Processed ticker: APH
+2024-02-21 12:27:55,112 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADI/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:27:59,802 - INFO - Next URL exists for ticker: ADI. URL: https://api.polygon.io/v2/aggs/ticker/ADI/range/2/hour/1660921200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:27:59,802 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADI/range/2/hour/1660921200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:28:04,516 - INFO - Next URL exists for ticker: ADI. URL: https://api.polygon.io/v2/aggs/ticker/ADI/range/2/hour/1676660400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:28:04,516 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADI/range/2/hour/1676660400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:28:09,235 - INFO - Next URL exists for ticker: ADI. URL: https://api.polygon.io/v2/aggs/ticker/ADI/range/2/hour/1692385200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:28:09,235 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADI/range/2/hour/1692385200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:28:13,957 - INFO - Next URL exists for ticker: ADI. URL: https://api.polygon.io/v2/aggs/ticker/ADI/range/2/hour/1708477200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:28:13,957 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADI/range/2/hour/1708477200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:28:18,399 - INFO - No results found for ticker: ADI. Response: {'ticker': 'ADI', 'queryCount': 0, 'resultsCount': 0, 'adjusted': True, 'status': 'DELAYED', 'request_id': 'd2b101f9bb9d3d64dcd44b0e4237bc51'}
+2024-02-21 12:28:18,427 - INFO - Processed ticker: ADI
+2024-02-21 12:28:18,427 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ANSS/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:28:23,252 - INFO - Next URL exists for ticker: ANSS. URL: https://api.polygon.io/v2/aggs/ticker/ANSS/range/2/hour/1666026000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:28:23,252 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ANSS/range/2/hour/1666026000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:28:27,967 - INFO - Next URL exists for ticker: ANSS. URL: https://api.polygon.io/v2/aggs/ticker/ANSS/range/2/hour/1687546800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:28:27,967 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ANSS/range/2/hour/1687546800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:28:32,777 - INFO - Processed ticker: ANSS
+2024-02-21 12:28:32,777 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AON/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:28:37,406 - INFO - Next URL exists for ticker: AON. URL: https://api.polygon.io/v2/aggs/ticker/AON/range/2/hour/1662663600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:28:37,406 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AON/range/2/hour/1662663600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:28:41,938 - INFO - Next URL exists for ticker: AON. URL: https://api.polygon.io/v2/aggs/ticker/AON/range/2/hour/1681765200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:28:41,938 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AON/range/2/hour/1681765200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:28:46,499 - INFO - Next URL exists for ticker: AON. URL: https://api.polygon.io/v2/aggs/ticker/AON/range/2/hour/1701795600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:28:46,499 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AON/range/2/hour/1701795600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:28:51,068 - INFO - Processed ticker: AON
+2024-02-21 12:28:51,068 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APA/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:28:55,761 - INFO - Next URL exists for ticker: APA. URL: https://api.polygon.io/v2/aggs/ticker/APA/range/2/hour/1659625200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:28:55,761 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APA/range/2/hour/1659625200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:29:00,555 - INFO - Next URL exists for ticker: APA. URL: https://api.polygon.io/v2/aggs/ticker/APA/range/2/hour/1673974800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:29:00,555 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APA/range/2/hour/1673974800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:29:05,048 - INFO - Next URL exists for ticker: APA. URL: https://api.polygon.io/v2/aggs/ticker/APA/range/2/hour/1689094800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:29:05,049 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APA/range/2/hour/1689094800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:29:10,742 - INFO - Next URL exists for ticker: APA. URL: https://api.polygon.io/v2/aggs/ticker/APA/range/2/hour/1704373200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:29:10,743 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APA/range/2/hour/1704373200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:29:15,212 - INFO - Processed ticker: APA
+2024-02-21 12:29:15,213 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:29:19,943 - INFO - Next URL exists for ticker: AAPL. URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1652893200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:29:19,944 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1652893200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:29:24,678 - INFO - Next URL exists for ticker: AAPL. URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1660762800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:29:24,679 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1660762800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:29:29,386 - INFO - Next URL exists for ticker: AAPL. URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1668121200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:29:29,387 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1668121200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:29:34,037 - INFO - Next URL exists for ticker: AAPL. URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1676314800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:29:34,038 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1676314800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:29:38,827 - INFO - Next URL exists for ticker: AAPL. URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1684501200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:29:38,827 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1684501200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:29:43,480 - INFO - Next URL exists for ticker: AAPL. URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1692824400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:29:43,481 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1692824400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:29:47,986 - INFO - Next URL exists for ticker: AAPL. URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1701212400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:29:47,987 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AAPL/range/2/hour/1701212400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:29:53,093 - INFO - Processed ticker: AAPL
+2024-02-21 12:29:53,094 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMAT/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:29:57,770 - INFO - Next URL exists for ticker: AMAT. URL: https://api.polygon.io/v2/aggs/ticker/AMAT/range/2/hour/1659963600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:29:57,771 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMAT/range/2/hour/1659963600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:30:02,488 - INFO - Next URL exists for ticker: AMAT. URL: https://api.polygon.io/v2/aggs/ticker/AMAT/range/2/hour/1674500400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:30:02,488 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMAT/range/2/hour/1674500400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:30:07,201 - INFO - Next URL exists for ticker: AMAT. URL: https://api.polygon.io/v2/aggs/ticker/AMAT/range/2/hour/1689166800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:30:07,202 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMAT/range/2/hour/1689166800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:30:11,853 - INFO - Next URL exists for ticker: AMAT. URL: https://api.polygon.io/v2/aggs/ticker/AMAT/range/2/hour/1703689200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:30:11,854 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AMAT/range/2/hour/1703689200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:30:16,620 - INFO - Processed ticker: AMAT
+2024-02-21 12:30:16,620 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APTV/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:30:22,092 - INFO - Next URL exists for ticker: APTV. URL: https://api.polygon.io/v2/aggs/ticker/APTV/range/2/hour/1661360400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:30:22,093 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APTV/range/2/hour/1661360400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:30:27,049 - INFO - Next URL exists for ticker: APTV. URL: https://api.polygon.io/v2/aggs/ticker/APTV/range/2/hour/1677690000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:30:27,049 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APTV/range/2/hour/1677690000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:30:32,092 - INFO - Next URL exists for ticker: APTV. URL: https://api.polygon.io/v2/aggs/ticker/APTV/range/2/hour/1693947600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:30:32,092 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/APTV/range/2/hour/1693947600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:30:36,645 - INFO - Processed ticker: APTV
+2024-02-21 12:30:36,645 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ACGL/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:30:41,280 - INFO - Next URL exists for ticker: ACGL. URL: https://api.polygon.io/v2/aggs/ticker/ACGL/range/2/hour/1661540400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:30:41,282 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ACGL/range/2/hour/1661540400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:30:45,995 - INFO - Next URL exists for ticker: ACGL. URL: https://api.polygon.io/v2/aggs/ticker/ACGL/range/2/hour/1677862800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:30:45,995 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ACGL/range/2/hour/1677862800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:30:50,715 - INFO - Next URL exists for ticker: ACGL. URL: https://api.polygon.io/v2/aggs/ticker/ACGL/range/2/hour/1694185200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:30:50,715 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ACGL/range/2/hour/1694185200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:30:55,404 - INFO - Processed ticker: ACGL
+2024-02-21 12:30:55,404 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADM/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:31:00,154 - INFO - Next URL exists for ticker: ADM. URL: https://api.polygon.io/v2/aggs/ticker/ADM/range/2/hour/1660741200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:31:00,155 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADM/range/2/hour/1660741200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:31:05,398 - INFO - Next URL exists for ticker: ADM. URL: https://api.polygon.io/v2/aggs/ticker/ADM/range/2/hour/1676487600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:31:05,399 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADM/range/2/hour/1676487600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:31:12,659 - INFO - Next URL exists for ticker: ADM. URL: https://api.polygon.io/v2/aggs/ticker/ADM/range/2/hour/1692298800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:31:12,660 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADM/range/2/hour/1692298800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:31:17,385 - INFO - Next URL exists for ticker: ADM. URL: https://api.polygon.io/v2/aggs/ticker/ADM/range/2/hour/1707922800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:31:17,387 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADM/range/2/hour/1707922800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:31:21,859 - INFO - Processed ticker: ADM
+2024-02-21 12:31:21,860 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ANET/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:31:26,368 - INFO - Next URL exists for ticker: ANET. URL: https://api.polygon.io/v2/aggs/ticker/ANET/range/2/hour/1661187600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:31:26,369 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ANET/range/2/hour/1661187600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:31:31,359 - INFO - Next URL exists for ticker: ANET. URL: https://api.polygon.io/v2/aggs/ticker/ANET/range/2/hour/1677085200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:31:31,360 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ANET/range/2/hour/1677085200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:31:36,287 - INFO - Next URL exists for ticker: ANET. URL: https://api.polygon.io/v2/aggs/ticker/ANET/range/2/hour/1692291600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:31:36,287 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ANET/range/2/hour/1692291600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:31:41,097 - INFO - Next URL exists for ticker: ANET. URL: https://api.polygon.io/v2/aggs/ticker/ANET/range/2/hour/1707915600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:31:41,097 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ANET/range/2/hour/1707915600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:31:45,496 - INFO - Processed ticker: ANET
+2024-02-21 12:31:45,496 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AJG/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:31:49,986 - INFO - Next URL exists for ticker: AJG. URL: https://api.polygon.io/v2/aggs/ticker/AJG/range/2/hour/1663167600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:31:49,987 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AJG/range/2/hour/1663167600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:31:54,683 - INFO - Next URL exists for ticker: AJG. URL: https://api.polygon.io/v2/aggs/ticker/AJG/range/2/hour/1681498800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:31:54,684 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AJG/range/2/hour/1681498800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:31:59,401 - INFO - Next URL exists for ticker: AJG. URL: https://api.polygon.io/v2/aggs/ticker/AJG/range/2/hour/1700578800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:31:59,401 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AJG/range/2/hour/1700578800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:32:04,095 - INFO - Processed ticker: AJG
+2024-02-21 12:32:04,095 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AIZ/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:32:08,838 - INFO - Next URL exists for ticker: AIZ. URL: https://api.polygon.io/v2/aggs/ticker/AIZ/range/2/hour/1666904400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:32:08,839 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AIZ/range/2/hour/1666904400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:32:13,754 - INFO - Next URL exists for ticker: AIZ. URL: https://api.polygon.io/v2/aggs/ticker/AIZ/range/2/hour/1690837200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:32:13,754 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AIZ/range/2/hour/1690837200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:32:18,308 - INFO - Processed ticker: AIZ
+2024-02-21 12:32:18,309 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/T/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:32:22,935 - INFO - Next URL exists for ticker: T. URL: https://api.polygon.io/v2/aggs/ticker/T/range/2/hour/1657119600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:32:22,936 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/T/range/2/hour/1657119600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:32:27,644 - INFO - Next URL exists for ticker: T. URL: https://api.polygon.io/v2/aggs/ticker/T/range/2/hour/1668524400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:32:27,644 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/T/range/2/hour/1668524400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:32:32,236 - INFO - Next URL exists for ticker: T. URL: https://api.polygon.io/v2/aggs/ticker/T/range/2/hour/1681930800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:32:32,237 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/T/range/2/hour/1681930800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:32:37,164 - INFO - Next URL exists for ticker: T. URL: https://api.polygon.io/v2/aggs/ticker/T/range/2/hour/1692903600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:32:37,165 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/T/range/2/hour/1692903600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:32:41,876 - INFO - Next URL exists for ticker: T. URL: https://api.polygon.io/v2/aggs/ticker/T/range/2/hour/1705503600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:32:41,877 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/T/range/2/hour/1705503600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:32:46,428 - INFO - Processed ticker: T
+2024-02-21 12:32:46,428 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ATO/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:32:51,314 - INFO - Next URL exists for ticker: ATO. URL: https://api.polygon.io/v2/aggs/ticker/ATO/range/2/hour/1662663600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:32:51,314 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ATO/range/2/hour/1662663600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:32:56,046 - INFO - Next URL exists for ticker: ATO. URL: https://api.polygon.io/v2/aggs/ticker/ATO/range/2/hour/1680807600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:32:56,047 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ATO/range/2/hour/1680807600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:33:00,739 - INFO - Next URL exists for ticker: ATO. URL: https://api.polygon.io/v2/aggs/ticker/ATO/range/2/hour/1699542000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:33:00,740 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ATO/range/2/hour/1699542000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:33:05,631 - INFO - Processed ticker: ATO
+2024-02-21 12:33:05,631 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADSK/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:33:10,275 - INFO - Next URL exists for ticker: ADSK. URL: https://api.polygon.io/v2/aggs/ticker/ADSK/range/2/hour/1661367600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:33:10,275 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADSK/range/2/hour/1661367600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:33:14,998 - INFO - Next URL exists for ticker: ADSK. URL: https://api.polygon.io/v2/aggs/ticker/ADSK/range/2/hour/1677783600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:33:14,999 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADSK/range/2/hour/1677783600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:33:19,630 - INFO - Next URL exists for ticker: ADSK. URL: https://api.polygon.io/v2/aggs/ticker/ADSK/range/2/hour/1694199600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:33:19,631 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADSK/range/2/hour/1694199600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:33:24,208 - INFO - Processed ticker: ADSK
+2024-02-21 12:33:24,208 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADP/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:33:28,820 - INFO - Next URL exists for ticker: ADP. URL: https://api.polygon.io/v2/aggs/ticker/ADP/range/2/hour/1661439600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:33:28,821 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADP/range/2/hour/1661439600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:33:34,361 - INFO - Next URL exists for ticker: ADP. URL: https://api.polygon.io/v2/aggs/ticker/ADP/range/2/hour/1677862800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:33:34,362 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADP/range/2/hour/1677862800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:33:39,006 - INFO - Next URL exists for ticker: ADP. URL: https://api.polygon.io/v2/aggs/ticker/ADP/range/2/hour/1694538000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:33:39,008 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ADP/range/2/hour/1694538000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:33:43,739 - INFO - Processed ticker: ADP
+2024-02-21 12:33:43,740 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AZO/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:33:48,349 - INFO - Next URL exists for ticker: AZO. URL: https://api.polygon.io/v2/aggs/ticker/AZO/range/2/hour/1686949200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:33:48,349 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AZO/range/2/hour/1686949200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:33:53,032 - INFO - Processed ticker: AZO
+2024-02-21 12:33:53,033 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AVB/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:33:58,016 - INFO - Next URL exists for ticker: AVB. URL: https://api.polygon.io/v2/aggs/ticker/AVB/range/2/hour/1664917200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:33:58,017 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AVB/range/2/hour/1664917200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:34:02,692 - INFO - Next URL exists for ticker: AVB. URL: https://api.polygon.io/v2/aggs/ticker/AVB/range/2/hour/1683572400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:34:02,692 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AVB/range/2/hour/1683572400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:34:07,308 - INFO - Next URL exists for ticker: AVB. URL: https://api.polygon.io/v2/aggs/ticker/AVB/range/2/hour/1703689200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:34:07,308 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AVB/range/2/hour/1703689200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:34:11,843 - INFO - Processed ticker: AVB
+2024-02-21 12:34:11,843 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AVY/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:34:16,592 - INFO - Next URL exists for ticker: AVY. URL: https://api.polygon.io/v2/aggs/ticker/AVY/range/2/hour/1665680400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:34:16,592 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AVY/range/2/hour/1665680400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:34:21,317 - INFO - Next URL exists for ticker: AVY. URL: https://api.polygon.io/v2/aggs/ticker/AVY/range/2/hour/1687791600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:34:21,317 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AVY/range/2/hour/1687791600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:34:26,077 - INFO - Processed ticker: AVY
+2024-02-21 12:34:26,078 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AXON/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:34:30,751 - INFO - Next URL exists for ticker: AXON. URL: https://api.polygon.io/v2/aggs/ticker/AXON/range/2/hour/1668445200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:34:30,752 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AXON/range/2/hour/1668445200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:34:35,533 - INFO - Next URL exists for ticker: AXON. URL: https://api.polygon.io/v2/aggs/ticker/AXON/range/2/hour/1689001200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:34:35,533 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AXON/range/2/hour/1689001200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:34:40,227 - INFO - Processed ticker: AXON
+2024-02-21 12:34:40,228 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BKR/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:34:44,909 - INFO - Next URL exists for ticker: BKR. URL: https://api.polygon.io/v2/aggs/ticker/BKR/range/2/hour/1660676400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:34:44,909 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BKR/range/2/hour/1660676400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:34:49,628 - INFO - Next URL exists for ticker: BKR. URL: https://api.polygon.io/v2/aggs/ticker/BKR/range/2/hour/1676055600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:34:49,629 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BKR/range/2/hour/1676055600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:34:54,421 - INFO - Next URL exists for ticker: BKR. URL: https://api.polygon.io/v2/aggs/ticker/BKR/range/2/hour/1691751600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:34:54,421 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BKR/range/2/hour/1691751600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:34:59,063 - INFO - Next URL exists for ticker: BKR. URL: https://api.polygon.io/v2/aggs/ticker/BKR/range/2/hour/1707418800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:34:59,063 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BKR/range/2/hour/1707418800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:35:03,766 - INFO - Processed ticker: BKR
+2024-02-21 12:35:03,767 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BALL/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:35:09,147 - INFO - Next URL exists for ticker: BALL. URL: https://api.polygon.io/v2/aggs/ticker/BALL/range/2/hour/1668034800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:35:09,147 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BALL/range/2/hour/1668034800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:35:14,464 - INFO - Next URL exists for ticker: BALL. URL: https://api.polygon.io/v2/aggs/ticker/BALL/range/2/hour/1684508400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:35:14,464 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BALL/range/2/hour/1684508400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:35:20,094 - INFO - Next URL exists for ticker: BALL. URL: https://api.polygon.io/v2/aggs/ticker/BALL/range/2/hour/1701111600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:35:20,094 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BALL/range/2/hour/1701111600000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:35:25,838 - INFO - Processed ticker: BALL
+2024-02-21 12:35:25,838 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BAC/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:35:31,501 - INFO - Next URL exists for ticker: BAC. URL: https://api.polygon.io/v2/aggs/ticker/BAC/range/2/hour/1655478000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:35:31,501 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BAC/range/2/hour/1655478000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:35:36,103 - INFO - Next URL exists for ticker: BAC. URL: https://api.polygon.io/v2/aggs/ticker/BAC/range/2/hour/1666357200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:35:36,104 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BAC/range/2/hour/1666357200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:35:40,700 - INFO - Next URL exists for ticker: BAC. URL: https://api.polygon.io/v2/aggs/ticker/BAC/range/2/hour/1677870000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:35:40,700 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BAC/range/2/hour/1677870000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:35:45,406 - INFO - Next URL exists for ticker: BAC. URL: https://api.polygon.io/v2/aggs/ticker/BAC/range/2/hour/1686834000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:35:45,406 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BAC/range/2/hour/1686834000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:35:50,116 - INFO - Next URL exists for ticker: BAC. URL: https://api.polygon.io/v2/aggs/ticker/BAC/range/2/hour/1697482800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:35:50,117 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BAC/range/2/hour/1697482800000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:35:54,875 - INFO - Processed ticker: BAC
+2024-02-21 12:35:54,876 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BK/range/2/hour/2022-02-21/2024-02-21?adjusted=true&sort=asc&limit=50000&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:35:59,552 - INFO - Next URL exists for ticker: BK. URL: https://api.polygon.io/v2/aggs/ticker/BK/range/2/hour/1661173200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:35:59,553 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BK/range/2/hour/1661173200000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-02-21 12:36:04,330 - INFO - Next URL exists for ticker: BK. URL: https://api.polygon.io/v2/aggs/ticker/BK/range/2/hour/1677078000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:36:04,331 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BK/range/2/hour/1677078000000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-02-21 12:36:08,819 - INFO - Next URL exists for ticker: BK. URL: https://api.polygon.io/v2/aggs/ticker/BK/range/2/hour/1692716400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M
+2024-02-21 12:36:08,820 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/BK/range/2/hour/1692716400000/2024-02-21?cursor=bGltaXQ9NTAwMDAmc29ydD1hc2M&apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-02-21 12:36:13,505 - INFO - Processed ticker: BK
