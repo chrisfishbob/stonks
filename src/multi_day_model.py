@@ -11,6 +11,7 @@ from sklearn.tree import DecisionTreeRegressor
 
 def train_decision_tree_models(
     stock_data_file,
+    days_ahead: int,
 ) -> Tuple[Dict[str, DecisionTreeRegressor], Dict[str, ndarray], dict[str, object]]:
     df = pd.read_csv(stock_data_file)
 
@@ -26,8 +27,8 @@ def train_decision_tree_models(
     # Step 4: Keep only the first entry of each group (i.e., each ticker and each day)
     filtered_df = grouped.first().reset_index()
 
-    # Step 5: Add an extra column called "later_close" with close price 3 days later for each ticker
-    filtered_df['later_close'] = filtered_df.groupby('ticker')['close'].shift(-3)
+    # Step 5: Add an extra column called "later_close" with close price `days_ahead` later for each ticker
+    filtered_df['later_close'] = filtered_df.groupby('ticker')['close'].shift(-days_ahead)
 
     # Step 6: When our data cuts off, there will be a few rows without a later_close date. Drop those rows
     filtered_df.dropna(subset=["later_close"], inplace=True)
@@ -141,6 +142,12 @@ def predict(
     type=float,
     required=True,
 )
+@click.option(
+    "--days-ahead",
+    help="The number of trades for the day",
+    type=int,
+    required=True,
+)
 def three_day_decision_tree_model(
     file_path: str,
     ticker: str,
@@ -150,9 +157,10 @@ def three_day_decision_tree_model(
     volume: int,
     vwap: float,
     num_trades: int,
-    close_price: float
+    close_price: float,
+    days_ahead: int,
 ) -> None:
-    models, _, mse = train_decision_tree_models(file_path)
+    models, _, mse = train_decision_tree_models(file_path, days_ahead)
 
     features = pd.DataFrame(
         {
