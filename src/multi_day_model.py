@@ -16,19 +16,21 @@ def train_decision_tree_models(
     df = pd.read_csv(stock_data_file)
 
     # Step 1: Convert timestamp to datetime
-    df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
+    df["timestamp"] = pd.to_datetime(df["timestamp"], unit="ms")
 
     # Step 2: Extract date from timestamp
-    df['date'] = df['timestamp'].dt.date
+    df["date"] = df["timestamp"].dt.date
 
     # Step 3: Group by ticker and date
-    grouped = df.groupby(['ticker', 'date'])
+    grouped = df.groupby(["ticker", "date"])
 
     # Step 4: Keep only the first entry of each group (i.e., each ticker and each day)
     filtered_df = grouped.first().reset_index()
 
     # Step 5: Add an extra column called "later_close" with close price `days_ahead` later for each ticker
-    filtered_df['later_close'] = filtered_df.groupby('ticker')['close'].shift(-days_ahead)
+    filtered_df["later_close"] = filtered_df.groupby("ticker")["close"].shift(
+        -days_ahead
+    )
 
     # Step 6: When our data cuts off, there will be a few rows without a later_close date. Drop those rows
     filtered_df.dropna(subset=["later_close"], inplace=True)
@@ -181,9 +183,7 @@ def three_day_decision_tree_model(
     click.secho(
         f"\nPredicted close price for {ticker}: {prediction}", fg="green", bold=True
     )
-    click.secho(
-        f"\nMean squared error: {mse[ticker]}", fg="yellow", bold=True
-    )
+    click.secho(f"\nMean squared error: {mse[ticker]}", fg="yellow", bold=True)
 
 
 if __name__ == "__main__":

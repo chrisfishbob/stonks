@@ -1,0 +1,145 @@
+phase,Temp,Weather,Tomato_Change,Market_Change
+first quarter,Cold,Clear,Down,UP
+first quarter,Cold,Clear,No Change,DOWN
+first quarter,Cold,Clear,Up,UP
+first quarter,Cold,Misty,Up,DOWN
+first quarter,Cold,Rainy,No Change,DOWN
+first quarter,Mild,Clear,Down,DOWN
+first quarter,Mild,Clear,No Change,UP
+first quarter,Mild,Clear,Up,UP
+first quarter,Mild,Misty,No Change,DOWN
+first quarter,Mild,Misty,Up,UP
+first quarter,Mild,Rainy,No Change,UP
+first quarter,Mild,Rainy,Up,UP
+first quarter,Hot,Clear,Down,UP
+first quarter,Hot,Clear,No Change,UP
+first quarter,Hot,Clear,Up,UP
+first quarter,Hot,Rainy,Up,UP
+full,Cold,Clear,Down,UP
+full,Cold,Clear,No Change,DOWN
+full,Cold,Clear,Up,DOWN
+full,Cold,Misty,Down,UP
+full,Cold,Rainy,No Change,UP
+full,Cold,Rainy,Up,NO CHANGE
+full,Mild,Clear,Down,UP
+full,Mild,Clear,No Change,UP
+full,Mild,Clear,Up,UP
+full,Mild,Misty,Down,UP
+full,Mild,Misty,No Change,DOWN
+full,Mild,Rainy,Down,UP
+full,Mild,Rainy,Up,DOWN
+full,Hot,Clear,No Change,DOWN
+full,Hot,Clear,Up,DOWN
+full,Hot,Misty,Down,UP
+full,Hot,Misty,Up,UP
+full,Hot,Rainy,Up,DOWN
+last quarter,Cold,Clear,Down,UP
+last quarter,Cold,Clear,No Change,UP
+last quarter,Cold,Clear,Up,UP
+last quarter,Cold,Misty,Down,UP
+last quarter,Cold,Misty,No Change,UP
+last quarter,Cold,Misty,Up,UP
+last quarter,Mild,Clear,Down,UP
+last quarter,Mild,Clear,No Change,UP
+last quarter,Mild,Clear,Up,UP
+last quarter,Mild,Misty,Down,UP
+last quarter,Mild,Misty,No Change,DOWN
+last quarter,Mild,Misty,Up,DOWN
+last quarter,Mild,Rainy,Down,UP
+last quarter,Hot,Clear,Down,DOWN
+last quarter,Hot,Clear,No Change,DOWN
+last quarter,Hot,Clear,Up,DOWN
+last quarter,Hot,Rainy,Down,DOWN
+last quarter,Hot,Rainy,No Change,DOWN
+new,Cold,Clear,Down,UP
+new,Cold,Clear,No Change,DOWN
+new,Cold,Clear,Up,DOWN
+new,Cold,Misty,Down,UP
+new,Cold,Misty,Up,UP
+new,Cold,Rainy,Up,DOWN
+new,Mild,Clear,Down,UP
+new,Mild,Clear,No Change,DOWN
+new,Mild,Clear,Up,DOWN
+new,Mild,Misty,Down,UP
+new,Mild,Misty,No Change,UP
+new,Mild,Misty,Up,DOWN
+new,Mild,Rainy,Up,DOWN
+new,Hot,Clear,Down,UP
+new,Hot,Clear,No Change,UP
+new,Hot,Clear,Up,DOWN
+waning crescent,Cold,Clear,Down,DOWN
+waning crescent,Cold,Clear,No Change,DOWN
+waning crescent,Cold,Clear,Up,DOWN
+waning crescent,Mild,Clear,Down,DOWN
+waning crescent,Mild,Clear,No Change,UP
+waning crescent,Mild,Clear,Up,UP
+waning crescent,Mild,Misty,Down,UP
+waning crescent,Mild,Misty,No Change,DOWN
+waning crescent,Mild,Misty,Up,DOWN
+waning crescent,Mild,Rainy,No Change,UP
+waning crescent,Mild,Rainy,Up,UP
+waning crescent,Hot,Clear,No Change,UP
+waning crescent,Hot,Clear,Up,DOWN
+waning gibbous,Cold,Clear,Down,DOWN
+waning gibbous,Cold,Clear,No Change,UP
+waning gibbous,Cold,Clear,Up,UP
+waning gibbous,Cold,Misty,Down,UP
+waning gibbous,Cold,Misty,No Change,DOWN
+waning gibbous,Cold,Rainy,Down,UP
+waning gibbous,Cold,Rainy,No Change,UP
+waning gibbous,Mild,Clear,Down,UP
+waning gibbous,Mild,Clear,No Change,DOWN
+waning gibbous,Mild,Clear,Up,DOWN
+waning gibbous,Mild,Misty,Down,UP
+waning gibbous,Mild,Misty,No Change,UP
+waning gibbous,Mild,Misty,Up,UP
+waning gibbous,Mild,Rainy,Down,DOWN
+waning gibbous,Mild,Rainy,No Change,UP
+waning gibbous,Mild,Rainy,Up,DOWN
+waning gibbous,Hot,Clear,Down,DOWN
+waning gibbous,Hot,Clear,No Change,UP
+waning gibbous,Hot,Clear,Up,DOWN
+waning gibbous,Hot,Misty,Down,UP
+waning gibbous,Hot,Misty,Up,UP
+waning gibbous,Hot,Rainy,Down,UP
+waning gibbous,Hot,Rainy,No Change,UP
+waxing crescent,Cold,Clear,Down,UP
+waxing crescent,Cold,Clear,No Change,DOWN
+waxing crescent,Cold,Clear,Up,UP
+waxing crescent,Cold,Misty,Down,UP
+waxing crescent,Cold,Misty,No Change,DOWN
+waxing crescent,Cold,Rainy,No Change,DOWN
+waxing crescent,Cold,Rainy,Up,DOWN
+waxing crescent,Mild,Clear,Down,DOWN
+waxing crescent,Mild,Clear,No Change,UP
+waxing crescent,Mild,Clear,Up,UP
+waxing crescent,Mild,Misty,Down,UP
+waxing crescent,Mild,Misty,No Change,DOWN
+waxing crescent,Mild,Misty,Up,UP
+waxing crescent,Mild,Rainy,Down,UP
+waxing crescent,Hot,Clear,Down,DOWN
+waxing crescent,Hot,Clear,No Change,DOWN
+waxing crescent,Hot,Clear,Up,DOWN
+waxing crescent,Hot,Misty,Up,DOWN
+waxing crescent,Hot,Rainy,No Change,UP
+waxing gibbous,Cold,Clear,Down,DOWN
+waxing gibbous,Cold,Clear,No Change,UP
+waxing gibbous,Cold,Clear,Up,UP
+waxing gibbous,Cold,Misty,No Change,DOWN
+waxing gibbous,Cold,Misty,Up,DOWN
+waxing gibbous,Cold,Rainy,Down,UP
+waxing gibbous,Cold,Rainy,Up,DOWN
+waxing gibbous,Mild,Clear,Down,UP
+waxing gibbous,Mild,Clear,No Change,UP
+waxing gibbous,Mild,Clear,Up,UP
+waxing gibbous,Mild,Misty,Down,DOWN
+waxing gibbous,Mild,Misty,No Change,UP
+waxing gibbous,Mild,Misty,Up,DOWN
+waxing gibbous,Mild,Rainy,Down,UP
+waxing gibbous,Mild,Rainy,No Change,DOWN
+waxing gibbous,Mild,Rainy,Up,UP
+waxing gibbous,Hot,Clear,Down,UP
+waxing gibbous,Hot,Clear,No Change,DOWN
+waxing gibbous,Hot,Clear,Up,UP
+waxing gibbous,Hot,Rainy,No Change,UP
+waxing gibbous,Hot,Rainy,Up,UP

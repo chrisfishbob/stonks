@@ -12,7 +12,13 @@ API_KEYS = [
     "lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz",
     "_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO",
     "Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy",
+    "i_fOUC69wtNd7xXfuvrvooWZEuW5qPf8",
+    "oMHUUEhafW0qWnjRJj5CSrITRlbxgWvT",
+    "2zaSEssGyoopXspPyrgL9Q0ESDfyY_9v",
+
 ]
+
+API_KEY_COUNTER = 0
 
 symbol_to_word = {
     "c": "close",
@@ -25,6 +31,7 @@ symbol_to_word = {
     "n": "number_of_trades",
 }
 
+SEARCH_PARAMS = "?adjusted=true&sort=asc&limit=50000"
 
 logging.basicConfig(
     filename="logs.log",
@@ -56,33 +63,45 @@ def call_polygon_api(url: str) -> Dict[str, Any]:
 
 
 def get_stonks(
-    ticker_index: int, ticker: str, date_range: Tuple, multiplier: int
+    ticker: str, date_range: Tuple, multiplier: int
 ) -> List[Dict[str, str]]:
+    global API_KEY_COUNTER
+
     base_url = (
         f"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/{multiplier}/hour/"
     )
     url = (
-        f"{base_url}{date_range[0]}/{date_range[1]}?adjusted=true&sort=asc&limit=50000"
-        f"&apiKey={API_KEYS[ticker_index % len(API_KEYS)]}"
+        f"{base_url}{date_range[0]}/{date_range[1]}{SEARCH_PARAMS}"
+        f"&apiKey={API_KEYS[API_KEY_COUNTER % len(API_KEYS)]}"
     )
+    API_KEY_COUNTER += 1
+
     response = call_polygon_api(url)
     results: List[Dict[str, str]] = []
+
     if not response.get("results"):
         logging.info(f"No results found for ticker: {ticker}. Response: {response}")
         return []
+    
     results.extend(response["results"])
+
     while response.get("next_url") is not None:
-        ticker_index += 1
         logging.info(
             f"Next URL exists for ticker: {ticker}. URL: {response['next_url']}"
         )
+
         response = call_polygon_api(
-            f"{response['next_url']}&apiKey={API_KEYS[ticker_index % len(API_KEYS)]}"
+            f"{response['next_url']}&apiKey={API_KEYS[API_KEY_COUNTER % len(API_KEYS)]}"
         )
+
+        API_KEY_COUNTER += 1
+
         if not response.get("results"):
             logging.info(f"No results found for ticker: {ticker}. Response: {response}")
             continue
+
         results.extend(response["results"])
+
     return results
 
 
@@ -135,7 +154,6 @@ def write_stocks_data_to_csv(
             range(_ticker_range[0] - 1, _ticker_range[1]), desc="Processing tickers"
         ):
             results = get_stonks(
-                ticker_index=i,
                 ticker=tickers[i],
                 date_range=(start_date, end_date),
                 multiplier=multiplier,
