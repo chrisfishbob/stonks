@@ -20,7 +20,7 @@ API_KEYS = [
 
 API_KEY_COUNTER = 0
 
-symbol_to_word = {
+SYMBOL_TO_WORD = {
     "c": "close",
     "h": "high",
     "l": "low",

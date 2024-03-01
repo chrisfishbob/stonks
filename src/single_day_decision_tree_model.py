@@ -2,13 +2,13 @@ import click
 import pandas as pd
 from typing import Dict, Tuple
 from numpy import ndarray
-from pandas import DataFrame
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, mean_squared_error
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
+from utils import call_polygon_api, SYMBOL_TO_WORD, API_KEYS, API_KEY_COUNTER, get_tickers
 
 
-def train_decision_tree_models(
+def train(
     stock_data_file,
 ) -> Tuple[Dict[str, DecisionTreeClassifier], Dict[str, ndarray]]:
     data = pd.read_csv(stock_data_file)
@@ -20,27 +20,29 @@ def train_decision_tree_models(
 
     ticker_models = {}
     ticker_predictions = {}
-    ticker_accuracy = {}
+    ticker_mse = {}
 
     with click.progressbar(grouped_data, label="Training ticker models") as bar:
         for ticker, ticker_df in bar:
             ticker_df["next_close"] = ticker_df["close"].shift(-1)
-            ticker_df["close_change"] = (ticker_df["next_close"] > ticker_df["close"]).astype(int)
+            ticker_df["close_change"] = (
+                ticker_df["next_close"] > ticker_df["close"]
+            ).astype(int)
 
             x = ticker_df[
                 [
-                    "open",  # Today's open
-                    "high",  # Today's high
-                    "low",  # Today's low
-                    "close",  # Today's close
-                    "volume",  # Today's volume
-                    "close_change",  # 1 if tomorrow's close > today's close else 0
+                    "open",
+                    "high",
+                    "low",
+                    "close",
+                    "volume",
+                    "close_change",
                 ]
-            ].dropna()  # Drop rows with NaN values
+            ].dropna()
 
-            y = x["close_change"].dropna()  # 1 if tomorrow's close > today's close else 0
+            y = x["close_change"].dropna()
 
-            x.drop(columns=["close_change"], inplace=True)  # Drop close_change from features
+            x.drop(columns=["close_change"], inplace=True)
 
             x_train, x_test, y_train, y_test = train_test_split(
                 x, y, test_size=0.2, random_state=42
@@ -52,105 +54,69 @@ def train_decision_tree_models(
 
             predictions = classifier.predict(x_test)
 
-            accuracy = accuracy_score(y_test, predictions)
+            mse = mean_squared_error(y_test, predictions)
 
-            # Store the model and predictions
             ticker_models[str(ticker)] = classifier
             ticker_predictions[str(ticker)] = predictions
-            ticker_accuracy[str(ticker)] = accuracy
+            ticker_mse[str(ticker)] = mse
 
-    return ticker_models, ticker_predictions
+    return ticker_models, ticker_predictions, ticker_mse
 
 
 def predict(
-    ticker: str, features: DataFrame, models: Dict[str, DecisionTreeClassifier]
-) -> str:
-    model = models[ticker]
-    prediction = model.predict(features)
-    if prediction[0] == 1:
-        return "Tomorrow's close price is predicted to be higher than today's close price."
-    else:
-        return "Tomorrow's close price is predicted to be lower than or equal to today's close price."
+    models: Dict[str, DecisionTreeClassifier],
+    ticker: str,
+    date: str,
+) -> None:
+    global API_KEY_COUNTER
+    url = f"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/day/{date}/{date}?apiKey={API_KEYS[API_KEY_COUNTER % len(API_KEYS)]}"
+    API_KEY_COUNTER += 1
+    
+    response = call_polygon_api(url)
+    features = pd.DataFrame(
+        {
+            SYMBOL_TO_WORD[k]: next(iter(response["results"]))[k]
+            for k in ["o", "h", "l", "c", "v"]
+        },
+        index=[0],
+    )
+    prediction = next(iter(models[ticker].predict(features)))
+    return features, prediction
+
+
+def get_actual(features: pd.DataFrame, ticker: str, date: str) -> None:
+    global API_KEY_COUNTER
+    
+    today_price = features["close"].values[0]
+
+    tomorrow = (pd.to_datetime(date) + pd.Timedelta(days=1)).strftime("%Y-%m-%d")
+    url = f"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/day/{tomorrow}/{tomorrow}?apiKey={API_KEYS[API_KEY_COUNTER % len(API_KEYS)]}"
+    API_KEY_COUNTER += 1
+
+    response = call_polygon_api(url)
+    tmrw_price = next(iter(response["results"]))["c"]
+
+    return int(tmrw_price > today_price)
 
 
 @click.command()
 @click.option(
     "--file-path",
-    "-f",
+    "-p",
     default="data/stock_data.csv",
-    help="The directory containing the training data",
+    help="The file path to read the data from",
     type=str,
-    required=True,
 )
-@click.option(
-    "--ticker",
-    "-t",
-    help="The ticker to predict whether tomorrow's close price will be higher or lower than today's close price for",
-    type=str,
-    required=True,
-)
-@click.option(
-    "--open",
-    "-o",
-    help="Today's open price",
-    type=float,
-    required=True,
-)
-@click.option(
-    "--high",
-    "-hi",
-    help="Today's high price",
-    type=float,
-    required=True,
-)
-@click.option(
-    "--low",
-    "-l",
-    help="Today's low price",
-    type=float,
-    required=True,
-)
-@click.option(
-    "--close",
-    "-c",
-    help="Today's close price",
-    type=float,
-    required=True,
-)
-@click.option(
-    "--volume",
-    "-v",
-    help="Today's volume",
-    type=int,
-    required=True,
-)
-def single_day_decision_tree_model(
-    file_path: str,
-    ticker: str,
-    open: float,
-    high: float,
-    low: float,
-    close: float,
-    volume: int,
-) -> None:
-    models, _ = train_decision_tree_models(file_path)
-
-    features = pd.DataFrame(
-        {
-            "open": open,
-            "high": high,
-            "low": low,
-            "close": close,
-            "volume": volume,
-        },
-        index=[0],
-    )
-    click.secho(
-        f"\nPredicting whether tomorrow's close price will be higher or lower than today's close price for {ticker} using today's prices:\n{features}"
-    )
-    prediction = predict(ticker, features, models)
-    click.secho(prediction, fg="green", bold=True)
-
+@click.option("--ticker", "-t", help="The ticker to predict", type=str)
+@click.option("--date", "-d", help="The date to predict", type=str)
+def single_day_decision_tree_model(file_path: str, ticker: str, date: str) -> None:
+    models, _, mse = train(file_path)
+    features, prediction = predict(models, ticker, date)
+    actual = get_actual(features, ticker, date)
+    
+    click.secho(f"Predicted: {prediction}", fg="green", bold=True)
+    click.secho(f"Mean Squared Error: {mse[ticker]}", fg="green", bold=True)
+    #click.secho(f"Actual: {actual}", fg="green", bold=True)
 
 if __name__ == "__main__":
     single_day_decision_tree_model()
