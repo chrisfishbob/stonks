@@ -28,21 +28,25 @@ def train_decision_tree_models(
     filtered_df = grouped.first().reset_index()
 
     # Step 5: Add an extra column called "later_close" with close price `days_ahead` later for each ticker
-    filtered_df["later_close"] = filtered_df.groupby("ticker")["close"].shift(
-        -days_ahead
-    )
+    filtered_df["later_close"] = filtered_df.groupby("ticker")["close"].shift(-days_ahead)
 
     # Step 6: When our data cuts off, there will be a few rows without a later_close date. Drop those rows
     filtered_df.dropna(subset=["later_close"], inplace=True)
 
-    # Step 7: Group by the ticket
-    filtered_df = filtered_df.groupby("ticker")
+    # Step 7: Create a column indicating price change direction (up or down)
+    filtered_df["price_change"] = filtered_df.apply(lambda row: 1 if row["later_close"] > row["close"] else 0, axis=1)
+
+    # Step 8: Drop the "later_close" column
+    filtered_df.drop(columns=["later_close"], inplace=True)
+
+    # Step 9: Group by the ticket
+    grouped_df = filtered_df.groupby("ticker")
 
     ticker_models = {}
     ticker_predictions = {}
     ticker_mse = {}
 
-    with click.progressbar(filtered_df, label="Training ticker models") as bar:
+    with click.progressbar(grouped_df, label="Training ticker models") as bar:
         for ticker, ticker_df in bar:
             x = ticker_df[
                 [
@@ -55,10 +59,10 @@ def train_decision_tree_models(
                     "number_of_trades",
                 ]
             ]
-            y = ticker_df["later_close"]
+            y = ticker_df["price_change"]
 
             x_train, x_test, y_train, y_test = train_test_split(
-                x, y, test_size=0.2, random_state=42
+                x, y, test_size=0.3, random_state=42
             )
 
             regressor = DecisionTreeRegressor()
@@ -79,11 +83,11 @@ def train_decision_tree_models(
 
 def predict(
     ticker: str, features: DataFrame, models: Dict[str, DecisionTreeRegressor]
-) -> float:
+) -> str:
     model = models[ticker]
     prediction = model.predict(features)
 
-    return prediction[0]
+    return "up" if prediction[0] == 1 else "down"
 
 
 @click.command()
@@ -181,7 +185,7 @@ def three_day_decision_tree_model(
     )
     prediction = predict(ticker, features, models)
     click.secho(
-        f"\nPredicted close price for {ticker}: {prediction}", fg="green", bold=True
+        f"\nThe model predicts that {ticker} will go {prediction} in {days_ahead} day(s)", fg="green", bold=True
     )
     click.secho(f"\nMean squared error: {mse[ticker]}", fg="yellow", bold=True)
 
