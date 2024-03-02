@@ -1,20 +1,22 @@
+import click
+import pandas as pd
 from typing import Dict
 
 import pandas as pd
 
 # Load data from the Excel file
-data = pd.read_excel("./data/NB/NB_data.xlsx")
-
+data = pd.read_excel('./data/NB/NB_data.xlsx')
+data = data.map(lambda x: x.lower() if isinstance(x, str) else x)
 
 class NaiveBayes:
-    def __init__(self, data: pd.DataFrame):
+    def __init__(self, data: pd.DataFrame) -> None:
         self.data = data
-        self.outcome_probs: Dict[str, float] = {}
-        self.conditional_probs: Dict[str, float] = {}
+        self.outcome_probs = {}
+        self.conditional_probs= {}
 
     def train(self) -> None:
         total_instances = len(self.data)
-        total_counts = {"UP": 0, "DOWN": 0, "NO CHANGE": 0}
+        total_counts = {'up': 0, 'down': 0, 'no change': 0}
 
         # calculate probability of UP, DOWN, and NO CHANGE [P('UP'/'DOWN'/'NO CHANGE')]
         for instance in self.data["Market_Change"]:
@@ -63,22 +65,33 @@ class NaiveBayes:
             print("Error:", str(e))
             return "error"
 
+@click.command()
+@click.option('--phase',  
+              help='Current Lunar Phase: new, first quarter, last quarter, full, waning gibbous, \
+              waning crescent, waxing gibbous, waxing crescent',
+              type=str,
+              required=True)
+@click.option('--temp', 
+              help='Current Temp on Wall Street: hot, cold, mild',
+              type=str,
+              required=True)
+@click.option('--weather', 
+              help='Current Weather on Wall Street: clear, misty, rainy',
+              type=str,
+              required=True)
+@click.option('--tomato', 
+              help='Tomato Price Change Today: up, down, no change',
+              type=str,
+              required=True)
+def main(phase: str,
+         temp: str,
+         weather: str,
+         tomato: str) -> None:
+    new_instance = {'phase': phase, 'Temp': temp, 'Weather': weather, 'Tomato_Change': tomato}
 
-if __name__ == "__main__":
     bayes = NaiveBayes(data)
     bayes.train()
-
-    phase = input("Enter Phase: ")
-    temp = input("Enter Temperature: ")
-    weather = input("Enter Weather: ")
-    tomato_change = input("Enter Tomato_Change: ")
-
-    new_instance = {
-        "phase": phase,
-        "Temp": temp,
-        "Weather": weather,
-        "Tomato_Change": tomato_change,
-    }
+    
     probability = bayes.predict(new_instance)
 
     input_description = ", ".join(
@@ -87,3 +100,33 @@ if __name__ == "__main__":
 
     for outcome, prob in probability.items():
         print(f"P(Market_Change={outcome}|{input_description}) = {round(prob, 3)}")
+
+if __name__ == "__main__":
+    #main()
+
+    updated_bayes = NaiveBayes(data)
+    updated_bayes.train()
+
+    # Test the model on the new dataset (NB_data_2.xlsx)
+    nb_data_2 = pd.read_excel('./data/NB/NB_data_2.xlsx')
+    nb_data_2 = nb_data_2.applymap(lambda x: x.lower() if isinstance(x, str) else x)
+
+    correct_predictions = 0
+    total_instances = len(nb_data_2)
+
+    for _, instance in nb_data_2.iterrows():
+        new_instance = {
+            'phase': instance['phase'],
+            'Temp': instance['Temp'],
+            'Weather': instance['Weather'],
+            'Tomato_Change': instance['Tomato_Change']
+        }
+
+        probability = updated_bayes.predict(new_instance)
+        predicted_outcome = max(probability, key=probability.get)
+
+        if predicted_outcome.lower() == instance['Market_Change'].lower():
+            correct_predictions += 1
+
+    accuracy = correct_predictions / total_instances
+    print(f"Accuracy on the new dataset (NB_data_2.xlsx): {accuracy:.2%}")
