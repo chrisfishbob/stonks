@@ -27,13 +27,22 @@ if __name__ == '__main__':
     tomato['Tomato_Change'] = tomato['Daily_Change'].apply(lambda x: 'Up' if x > 0 else ('Down' if x < 0 else 'No Change'))
     tomato = tomato[['Date', 'Tomato_Change']]
 
+    '''stock_data = pd.read_csv('./data/stock_data.csv')
+    stock_data['Date'] = pd.to_datetime(stock_data['timestamp'] / 1000, unit='s').dt.strftime('%Y-%m-%d')
+    stock_data['Daily_Change'] = stock_data['close'].diff()
+    stock_data['Stock_Change'] = stock_data['Daily_Change'].apply(lambda x: 'Up' if x > 0 else ('Down' if x < 0 else 'No Change'))
+    stock_data = stock_data[['Date', 'ticker', 'close', 'Stock_Change']]
+    print(stock_data)'''
+
     merged_df = pd.merge(vti, moon, on='Date', how='inner')
     merged_df = pd.merge(merged_df, temp, on='Date', how='inner')
     merged_df = pd.merge(merged_df, tomato, on='Date', how='inner')
+    #merged_df = pd.merge(merged_df, stock_data, on='Date', how='inner')
 
-    most_frequent_combinations = merged_df.groupby(['phase', 'Temp', 'Weather', 'Tomato_Change'], observed=True)['Market_Change'].apply(lambda x: x.mode()[0]).reset_index()
+    #most_frequent_combinations = merged_df.groupby(['phase', 'Temp', 'Weather', 'Tomato_Change', 'Market_Change'], observed=True)['Stock_Change'].apply(lambda x: x.mode()[0]).reset_index()
 
     #print(merged_df)
     #print(most_frequent_combinations)
-    #merged_df.to_excel('./data/NB/NB_data.xlsx', index=False)
-    most_frequent_combinations.to_excel('./data/NB/NB_data.xlsx', index=False)
+    merged_df.to_excel('./data/NB/NB_data_2.xlsx', index=False)
+    #print(most_frequent_combinations)
+    #most_frequent_combinations.to_excel('./data/NB/NB_data_2.xlsx', index=False)
