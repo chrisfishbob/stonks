@@ -8,7 +8,7 @@ from utils import get_tickers
 
 
 def _get_success_percentage(
-    data, stock_file_path: str, tickers_file_path: str, date: str, days_ahead: int
+    stock_file_path: str, tickers_file_path: str, date: str, days_ahead: int
 ) -> float:
     tickers = get_tickers(tickers_file_path)
     models, _, _ = train(stock_file_path, days_ahead)
