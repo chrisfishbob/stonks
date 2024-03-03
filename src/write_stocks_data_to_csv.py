@@ -15,7 +15,6 @@ API_KEYS = [
     "i_fOUC69wtNd7xXfuvrvooWZEuW5qPf8",
     "oMHUUEhafW0qWnjRJj5CSrITRlbxgWvT",
     "2zaSEssGyoopXspPyrgL9Q0ESDfyY_9v",
-
 ]
 
 API_KEY_COUNTER = 0
@@ -62,9 +61,7 @@ def call_polygon_api(url: str) -> Dict[str, Any]:
     return response.json()
 
 
-def get_stonks(
-    ticker: str, date_range: Tuple, multiplier: int
-) -> List[Dict[str, str]]:
+def get_stonks(ticker: str, date_range: Tuple, multiplier: int) -> List[Dict[str, str]]:
     global API_KEY_COUNTER
 
     base_url = (
@@ -82,7 +79,7 @@ def get_stonks(
     if not response.get("results"):
         logging.info(f"No results found for ticker: {ticker}. Response: {response}")
         return []
-    
+
     results.extend(response["results"])
 
     while response.get("next_url") is not None:

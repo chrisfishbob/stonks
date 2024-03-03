@@ -1,9 +1,9 @@
-import logging
-import requests
-import time
 import csv
+import logging
+import time
+from typing import Any, Dict, List
 
-from typing import Dict, List, Any
+import requests
 
 API_KEYS = [
     "lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz",
@@ -12,7 +12,6 @@ API_KEYS = [
     "i_fOUC69wtNd7xXfuvrvooWZEuW5qPf8",
     "oMHUUEhafW0qWnjRJj5CSrITRlbxgWvT",
     "2zaSEssGyoopXspPyrgL9Q0ESDfyY_9v",
-
 ]
 
 API_KEY_COUNTER = 0

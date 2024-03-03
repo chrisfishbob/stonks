@@ -1,11 +1,19 @@
+from typing import Dict, Tuple
+
 import click
 import pandas as pd
-from typing import Dict, Tuple
 from numpy import ndarray
 from sklearn.metrics import accuracy_score, mean_squared_error
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
-from utils import call_polygon_api, SYMBOL_TO_WORD, API_KEYS, API_KEY_COUNTER, get_tickers
+
+from utils import (
+    API_KEY_COUNTER,
+    API_KEYS,
+    SYMBOL_TO_WORD,
+    call_polygon_api,
+    get_tickers,
+)
 
 
 def train(
@@ -71,7 +79,7 @@ def predict(
     global API_KEY_COUNTER
     url = f"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/day/{date}/{date}?apiKey={API_KEYS[API_KEY_COUNTER % len(API_KEYS)]}"
     API_KEY_COUNTER += 1
-    
+
     response = call_polygon_api(url)
     features = pd.DataFrame(
         {
@@ -86,7 +94,7 @@ def predict(
 
 def get_actual(features: pd.DataFrame, ticker: str, date: str):
     global API_KEY_COUNTER
-    
+
     today_price = features["close"].values[0]
 
     tomorrow = (pd.to_datetime(date) + pd.Timedelta(days=1)).strftime("%Y-%m-%d")
@@ -113,10 +121,11 @@ def single_day_decision_tree_model(file_path: str, ticker: str, date: str) -> No
     models, _, mse = train(file_path)
     features, prediction = predict(models, ticker, date)
     actual = get_actual(features, ticker, date)
-    
+
     click.secho(f"Predicted: {prediction}", fg="green", bold=True)
     click.secho(f"Mean Squared Error: {mse[ticker]}", fg="green", bold=True)
-    #click.secho(f"Actual: {actual}", fg="green", bold=True)
+    # click.secho(f"Actual: {actual}", fg="green", bold=True)
+
 
 if __name__ == "__main__":
     single_day_decision_tree_model()
