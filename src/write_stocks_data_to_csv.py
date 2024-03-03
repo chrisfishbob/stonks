@@ -109,7 +109,7 @@ def _write_stocks_data_to_csv(
     ticker: str, results: List[Dict[str, str]], writer: csv.DictWriter
 ) -> None:
     for result in results:
-        result = {symbol_to_word[key]: value for key, value in result.items()}
+        result = {SYMBOL_TO_WORD[key]: value for key, value in result.items()}
         result.update({"ticker": ticker})
         writer.writerow(result)
 
@@ -142,7 +142,7 @@ def write_stocks_data_to_csv(
         )
     else:
         _ticker_range = [1, len(tickers)]
-    fieldnames = list(symbol_to_word.values())
+    fieldnames = list(SYMBOL_TO_WORD.values())
     fieldnames.append("ticker")
     with open(file_path, "w", newline="") as file:
         writer = csv.DictWriter(
