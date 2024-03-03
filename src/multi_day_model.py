@@ -7,11 +7,14 @@ from pandas import DataFrame
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
+from sklearn.tree import DecisionTreeClassifier
+from utils import call_polygon_api, SYMBOL_TO_WORD, API_KEYS, API_KEY_COUNTER, get_tickers
+from retry import retry
 
 
-def train_decision_tree_models(
+def train(
     stock_data_file,
-    days_ahead: int,
+    days_ahead: int = 3,
 ) -> Tuple[Dict[str, DecisionTreeRegressor], Dict[str, ndarray], dict[str, object]]:
     df = pd.read_csv(stock_data_file)
 
@@ -50,13 +53,11 @@ def train_decision_tree_models(
         for ticker, ticker_df in bar:
             x = ticker_df[
                 [
-                    "close",
+                    "open",
                     "high",
                     "low",
-                    "open",
+                    "close",
                     "volume",
-                    "volume_weighted_average_price",
-                    "number_of_trades",
                 ]
             ]
             y = ticker_df["price_change"]
@@ -81,13 +82,42 @@ def train_decision_tree_models(
     return ticker_models, ticker_predictions, ticker_mse
 
 
+@retry(tries=3)
 def predict(
-    ticker: str, features: DataFrame, models: Dict[str, DecisionTreeRegressor]
-) -> str:
-    model = models[ticker]
-    prediction = model.predict(features)
+    models: Dict[str, DecisionTreeClassifier],
+    ticker: str,
+    date: str,
+):
+    global API_KEY_COUNTER
+    url = f"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/day/{date}/{date}?apiKey={API_KEYS[API_KEY_COUNTER % len(API_KEYS)]}"
+    API_KEY_COUNTER += 1
+    
+    response = call_polygon_api(url)
+    features = pd.DataFrame(
+        {
+            SYMBOL_TO_WORD[k]: next(iter(response["results"]))[k]
+            for k in ["o", "h", "l", "c", "v"]
+        },
+        index=[0],
+    )
+    prediction = next(iter(models[ticker].predict(features)))
+    return features, prediction
 
-    return "up" if prediction[0] == 1 else "down"
+
+@retry(tries=3)
+def get_actual(features: pd.DataFrame, ticker: str, date: str):
+    global API_KEY_COUNTER
+    
+    today_price = features["close"].values[0]
+
+    tomorrow = (pd.to_datetime(date) + pd.Timedelta(days=1)).strftime("%Y-%m-%d")
+    url = f"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/3/day/{tomorrow}/{tomorrow}?apiKey={API_KEYS[API_KEY_COUNTER % len(API_KEYS)]}"
+    API_KEY_COUNTER += 1
+
+    response = call_polygon_api(url)
+    tmrw_price = next(iter(response["results"]))["c"]
+
+    return int(tmrw_price > today_price)
 
 
 @click.command()
@@ -166,7 +196,7 @@ def three_day_decision_tree_model(
     close_price: float,
     days_ahead: int,
 ) -> None:
-    models, _, mse = train_decision_tree_models(file_path, days_ahead)
+    models, _, mse = train(file_path, days_ahead)
 
     features = pd.DataFrame(
         {

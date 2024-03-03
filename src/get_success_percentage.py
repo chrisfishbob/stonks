@@ -1,5 +1,6 @@
 import click
-from single_day_decision_tree_model import train, predict, get_actual
+# from single_day_decision_tree_model import train, predict, get_actual
+from multi_day_model import train, predict, get_actual
 from utils import get_tickers
 
 @click.command()

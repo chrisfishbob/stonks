@@ -84,7 +84,7 @@ def predict(
     return features, prediction
 
 
-def get_actual(features: pd.DataFrame, ticker: str, date: str) -> None:
+def get_actual(features: pd.DataFrame, ticker: str, date: str):
     global API_KEY_COUNTER
     
     today_price = features["close"].values[0]
