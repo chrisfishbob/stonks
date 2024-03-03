@@ -89,7 +89,7 @@ def predict(
     date: str,
 ):
     global API_KEY_COUNTER
-    url = f"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/1/day/{date}/{date}?apiKey={API_KEYS[API_KEY_COUNTER % len(API_KEYS)]}"
+    url = f"https://api.polygon.io/v2/aggs/ticker/{ticker}/range/3/day/{date}/{date}?apiKey={API_KEYS[API_KEY_COUNTER % len(API_KEYS)]}"
     API_KEY_COUNTER += 1
     
     response = call_polygon_api(url)
