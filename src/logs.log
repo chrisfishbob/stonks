@@ -18145,3 +18145,16 @@
 2024-03-01 12:28:43,475 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/DVA/range/1/day/2024-01-02/2024-01-02?apiKey=oMHUUEhafW0qWnjRJj5CSrITRlbxgWvT
 2024-03-01 12:28:51,009 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/DVA/range/1/day/2024-01-03/2024-01-03?apiKey=2zaSEssGyoopXspPyrgL9Q0ESDfyY_9v
 2024-03-01 12:28:53,336 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/DAY/range/1/day/2024-01-02/2024-01-02?apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-03-02 20:15:14,966 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/1/day/2024-02-02/2024-02-02?apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-03-02 20:27:15,493 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/1/day/2024-02-01/2024-02-01?apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-03-02 20:27:18,064 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/3/day/2024-02-02/2024-02-02?apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-03-02 20:27:20,676 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AOS/range/1/day/2024-02-01/2024-02-01?apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-03-02 20:27:23,083 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AOS/range/3/day/2024-02-02/2024-02-02?apiKey=i_fOUC69wtNd7xXfuvrvooWZEuW5qPf8
+2024-03-02 20:27:25,917 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABT/range/1/day/2024-02-01/2024-02-01?apiKey=oMHUUEhafW0qWnjRJj5CSrITRlbxgWvT
+2024-03-02 20:28:15,190 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/3/day/2024-02-01/2024-02-01?apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-03-02 20:28:17,579 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/3/day/2024-02-02/2024-02-02?apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-03-02 20:39:43,992 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/1/day/2024-02-01/2024-02-01?apiKey=lK1jwHrVg47249kaPqBQ_Vfv__bCHBZz
+2024-03-02 20:39:46,631 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/MMM/range/3/day/2024-02-02/2024-02-02?apiKey=_gPpNVJ0f_ysCqoLRb8X0pazEbgQjEYO
+2024-03-02 20:39:49,149 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AOS/range/1/day/2024-02-01/2024-02-01?apiKey=Al9_qYnR6QsRI5OP3J3RXli1cFGuM3sy
+2024-03-02 20:39:51,548 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/AOS/range/3/day/2024-02-02/2024-02-02?apiKey=i_fOUC69wtNd7xXfuvrvooWZEuW5qPf8
+2024-03-02 20:39:54,265 - INFO - Calling the Polygon API with URL: https://api.polygon.io/v2/aggs/ticker/ABT/range/1/day/2024-02-01/2024-02-01?apiKey=oMHUUEhafW0qWnjRJj5CSrITRlbxgWvT
