@@ -114,13 +114,10 @@ def main(phase: str, temp: str, weather: str, tomato: str) -> None:
 
 
 if __name__ == "__main__":
-    # main()
-
     updated_bayes = NaiveBayes(data)
     updated_bayes.train()
 
-    # Test the model on the new dataset (NB_data_2.xlsx)
-    nb_data_2 = pd.read_excel("./data/NB/NB_data_2.xlsx")
+    nb_data_2 = pd.read_excel("../data/NB/NB_data_2.xlsx")
     nb_data_2 = nb_data_2.applymap(lambda x: x.lower() if isinstance(x, str) else x)
 
     correct_predictions = 0
