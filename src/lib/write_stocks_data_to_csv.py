@@ -115,7 +115,7 @@ def _write_stocks_data_to_csv(
 @click.option(
     "--file-path",
     "-p",
-    default="data/stocks_data.csv",
+    default="../data/stocks_data.csv",
     help="The file path to write the data to",
     type=str,
 )
@@ -129,7 +129,7 @@ def _write_stocks_data_to_csv(
 def write_stocks_data_to_csv(
     file_path: str, date_delta: int, multiplier: int, ticker_range: str
 ) -> None:
-    tickers = get_tickers("data/constituents.csv")
+    tickers = get_tickers("../data/constituents.csv")
     end_date = datetime.today().strftime("%Y-%m-%d")
     start_date = (datetime.today() - timedelta(days=date_delta)).strftime("%Y-%m-%d")
     if ticker_range is not None:

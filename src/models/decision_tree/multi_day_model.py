@@ -127,7 +127,7 @@ def get_actual(
 @click.option(
     "--file-path",
     "-f",
-    default="data/stock_data.csv",
+    default="../../data/stock_data.csv",
     help="The directory containing the training data",
     type=str,
     required=True,
@@ -135,50 +135,15 @@ def get_actual(
 @click.option(
     "--ticker",
     "-t",
-    help="The ticker to predict the close price for",
+    help="The ticker to predict",
     type=str,
     required=True,
 )
 @click.option(
-    "--high",
-    help="The high price for the day",
-    type=float,
-    required=True,
-)
-@click.option(
-    "--low",
-    help="The low price for the day",
-    type=float,
-    required=True,
-)
-@click.option(
-    "--open",
-    help="The open price for the day",
-    type=float,
-    required=True,
-)
-@click.option(
-    "--volume",
-    help="The volume for the day",
-    type=int,
-    required=True,
-)
-@click.option(
-    "--vwap",
-    help="The volume weighted average price for the day",
-    type=float,
-    required=True,
-)
-@click.option(
-    "--num-trades",
-    help="The number of trades for the day",
-    type=int,
-    required=True,
-)
-@click.option(
-    "--close-price",
-    help="The number of trades for the day",
-    type=float,
+    "--date",
+    "-d",
+    help="The last known date for the ticker",
+    type=str,
     required=True,
 )
 @click.option(
@@ -187,38 +152,19 @@ def get_actual(
     type=int,
     required=True,
 )
-def three_day_decision_tree_model(
+def multi_day_decision_tree_model(
     file_path: str,
     ticker: str,
-    high: float,
-    low: float,
-    open: float,
-    volume: int,
-    vwap: float,
-    num_trades: int,
-    close_price: float,
+    date: str,
     days_ahead: int,
 ) -> None:
     models, _, mse = train(file_path, days_ahead)
 
-    features = pd.DataFrame(
-        {
-            "close": close_price,
-            "high": high,
-            "low": low,
-            "open": open,
-            "volume": volume,
-            "volume_weighted_average_price": vwap,
-            "number_of_trades": num_trades,
-        },
-        index=[0],
-    )
+    data = pd.read_csv(file_path)
+    prediction = predict(data, models, ticker, date)
+    prediction_str = "up" if prediction else "down"
     click.secho(
-        f"\nPredicting close price for {ticker} using the following: \n{features}"
-    )
-    prediction = predict(ticker, features, models)
-    click.secho(
-        f"\nThe model predicts that {ticker} will go {prediction} in {days_ahead} day(s)",
+        f"\nThe model predicts that {ticker} will go {prediction_str} in {days_ahead} day(s)",
         fg="green",
         bold=True,
     )
@@ -226,4 +172,4 @@ def three_day_decision_tree_model(
 
 
 if __name__ == "__main__":
-    three_day_decision_tree_model()
+    multi_day_decision_tree_model()
